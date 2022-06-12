@@ -11,6 +11,8 @@
         android:clickable="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="26dp"
         /> <!-- https://cursos.alura.com.br/forum/topico-problema-ao-posicionar-botao-134371 -->
 
     <ListView
