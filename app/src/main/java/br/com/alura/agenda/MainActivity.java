@@ -1,22 +1,21 @@
 package br.com.alura.agenda;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends Activity {
+//public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Lista de Alunos");
 //        Toast.makeText(this, "Alan Lopes", Toast.LENGTH_LONG).show();
 //        -------------------------------------------------------------
 //        TextView aluno = new TextView(this);
