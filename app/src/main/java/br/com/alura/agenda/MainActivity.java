@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 //        setContentView(aluno);
         setContentView(R.layout.activity_main);
         List<String> alunos = new ArrayList<>(
-                Arrays.asList("Alex", "Fran", "Jose", "Maria", "Ana"));
+                Arrays.asList("Alex", "Fran", "Jose", "Maria", "Ana", "Alan"));
 //        TextView primeiroAluno = findViewById(R.id.textView);
 //        TextView segundoAluno  = findViewById(R.id.textView2);
 //        TextView terceiroAluno = findViewById(R.id.textView3);
